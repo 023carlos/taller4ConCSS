@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    min-height: 70vh;
+    background: #FFD700;
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: center;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    gap: 50px; 
+    flex-wrap: wrap; 
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.logo {
+    color: #6b6969;
+    height: 40px;
+}
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.card {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 90px;
+    width: 900px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    position: relative;
+}
+.image-container {
+    position: absolute;
+    left: 10px;
+    top: 35%;
+    transform: translateY(-50%);
+}
+.image-container img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+.content {
+    flex: 1;
+    margin-left: 280px;
+}
+h2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+p {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 16px;
+}
+.button {
+    font-size: 14px;
+    width: auto;
+    background: #FFD700;
+    color: rgb(14, 13, 13);
+    padding: 12px 14px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 4px;
+    cursor: pointer;
+}
+.projects {
+    text-align: center;
+    margin-top: 50px;
+}
+.projects h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.projects p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.projects .images {
+    
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.projects .images img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+.latest-works {
+    
+    background-color: white;
+    text-align: center;
+    margin-top: 8px;
+    padding: 100px;
+    background: white;
+}
+.latest-works h1{
+    font-size: 50px;
+   
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+.work-card {
+    background:#FFD700(92, 91, 41);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.work-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.work-card .description {
+    padding: 50px;
+    background: #FFD700;
+    font-weight: bold;
+}
+
+.contact-info {
+    gap: 50%;
+    margin-right: 60%;
+    max-width: 400px; 
+    color: #333; 
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    margin-right: 10px; /* Space between icons */
+}
+
+
+/* Form Container */
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    max-width: 40%;
+    margin-top: 10px; 
+}
+
+.contact-info, .form-container {
+    margin: 0;
+}
+
+form {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.2); 
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00; 
+    border: none;
+    border-radius: 5px; 
+    font-weight: bold;
+    cursor: pointer; 
+}
+.footer {
+    display: flex;
+    background-color: #333; 
+    color: white;
+    padding: 20px;
+}
+
+.footer div {
+    flex: 1; 
+    text-align: center; 
+    margin: 0 10px; 
+}
+
+.footer p {
+    margin: 5px 0 0; 
+}
